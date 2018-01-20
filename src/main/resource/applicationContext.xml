@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans>
+    <bean name="A" class="com.xm.bean.A">
+        <property name="name" value="Tom"></property>
+    </bean>
+
+    <bean name="B" class="com.xm.bean.B">
+        <property name="a" ref="A"></property>
+    </bean>
+</beans>
